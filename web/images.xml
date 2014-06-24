@@ -1,0 +1,45 @@
+<!--
+This is the full list of specific particularities which you can set for each image. Next to each property is the corresponding overall setting of the Banner.
+When you specify one of these properties as an XML attribute for each image, the corresponding overall setting of the Banner will be ignored.
+Check a few examples on the first photo below.
+
+Particular Property				Overall Property
+------------------------------------------------
+effect							imageEffects -> type
+zoompercent						imageEffects -> zoomPercent
+dur								imageEffects -> duration
+direction						imageEffects -> direction
+hzoompos						imageEffects -> hZoomPos
+vzoompos						imageEffects -> vZoomPos
+hpos							textOptions -> hPos
+vpos							textOptions -> vPos
+width							textOptions -> width
+height							textOptions -> height
+slide							textEffects -> slide
+appear							textEffects -> appear
+func							textEffects -> function
+type							textBackground -> type
+transition (a transition ID from the transitions list)
+
+-->
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="images/P1130453.jpg" target="_blank" duration="5" effect="zoom" hpos="right" slide="false">
+	<![CDATA[<head>Grab a bite into Burger King's all new 100% Angus Beef</head><body>Taste the GRILL</body>]]></photo>
+	
+	<photo image="images/P1140567.jpg" target="_blank" duration="5">
+	<![CDATA[<head>Enjoy with your love at Waraku's</head><body>Guaranteed to warm both heart and body</body>]]></photo>
+	
+	<photo image="images/P1140652.jpg" target="_blank" duration="5">
+	<![CDATA[<head>Savour the culture at Crystal Ballroom</head><body>and you'll be in for a treat!</body>]]></photo>
+	
+	<photo image="images/KOH_8359 copy.jpg" target="_blank" duration="5">
+	<![CDATA[<head>Sizzle up at the 10th SGDF National DanceSport Championships</head><body>Don't forget your dancing shoes</body>]]></photo>
+	
+	<photo image="images/break.jpg" target="_blank" duration="5" >
+	<![CDATA[<head>Break in style, break free!</head><body>Join the crew at <font color="#ff0000">Sky's Studio</font> now</body>]]></photo>
+		
+	<photo image="images/IMG_0636.jpg" target="_blank" duration="5">
+	<![CDATA[<head>Feel in awe at NUS Wind Symphony's InTempo '10</head><body>Bought your tickets yet?</body>]]></photo>
+</slideshow>

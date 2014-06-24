@@ -1,0 +1,44 @@
+    #ddm
+                {	position: absolute;
+                  visibility: hidden;
+                  margin: 0;
+                  padding: 0;
+                  background: transparent;
+                  border: 1px solid orange;
+		  border-top-color:transparent;}
+
+                #ddm a
+                {	position: relative;
+                  display: block;
+                  margin: 0;
+                  padding: 5px 10px;
+                  width: 129px;
+                  height: auto;
+                  white-space: nowrap;
+                  text-align: left;
+                  text-decoration: none;
+                  background: white;
+                  color: black;
+                  font: 12px calibri;
+		font-weight: bold;
+			 filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+		-moz-opacity: 0.8;
+		-khtml-opacity: 0.8;
+		opacity:0.8;
+
+	
+
+		}
+
+                #ddm a:hover
+                {	background: orange;
+                  color: #FFF;
+		font: 12px calibri;
+		font-weight: bold;
+
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=95);
+		-moz-opacity: 0.95;
+		-khtml-opacity: 0.95;
+		opacity:0.95;
+
+		}
